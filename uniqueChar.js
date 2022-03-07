@@ -23,7 +23,7 @@ function findUnique(str) {
 }
 
 console.log(findUnique(`Monday`)) // true
-console.log(findUnique(`Moonday`)) // false
+// console.log(findUnique(`Moonday`)) // false
 
-// Time complexity ==> O(n)
+// Time complexity ==> O(n^2)
 // Space complexity ==> O(1)
